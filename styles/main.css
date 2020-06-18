@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: #FFEBCD;
+}
+
+header {
+  margin: 48px 0 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 54px;
+  background-image: linear-gradient(to right, #8D7257, #8D7257, #EB9929, #EB9929, #EB9929, #EB9929);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+main {
+  margin-bottom: 96px;
+}
+
+.content {
+  width: 90%;
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#months,
+#themes {
+  margin-bottom: 10px;
+  color: #8D7257;
+  font-weight: bold;
+}
+
+#months select,
+#themes select {
+  background-color: #8D7257;
+  color: #FFEBCD;
+
+  border: 0;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 15px;
+
+  outline: none;
+}
+
+#calendar h1 {
+  margin-bottom: 5px;
+  color: #EB9929;
+}
+
+#calendar ul {
+  padding-left: 0;
+}
+
+#calendar ul li {
+  display: block;
+  float: left;
+  width: 25%;
+  border: 2px solid #FFEBCD;
+  border-radius: 8px;
+  padding: 5px;
+  height: 88px;
+  background-color: #8D7257;
+  color: #FFEBCD;
+}
